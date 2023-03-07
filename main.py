@@ -22,7 +22,7 @@ def hello_name(name):
 
 # main driver function
 if __name__ == '__main__':
-	app.run(host =  '0.0.0.0', port=6000, debug=True)
+	app.run(host =  '0.0.0.0', port=5001, debug=True)
 	# run() method of Flask class runs the application
 	# on the local development server.
 	# app.run()
