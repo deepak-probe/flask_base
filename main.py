@@ -13,6 +13,7 @@ app = Flask(__name__)
 # ‘/’ URL is bound with hello_world() function.
 def hello_world():
         c = 3
+        d = 4
 	return 'Hello World Test_4'
 
 @app.route('/hello/<name>')
